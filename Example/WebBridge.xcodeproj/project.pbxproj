@@ -12,6 +12,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		AD53659C283E187500C566E0 /* MyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AD53659B283E187500C566E0 /* MyTest.m */; };
 		EE0E0DB1C5D20FD2689E377C /* Pods_WebBridge_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F30DDCAAEBE6F8F8B4F037 /* Pods_WebBridge_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		91F30DDCAAEBE6F8F8B4F037 /* Pods_WebBridge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebBridge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD53659A283E187500C566E0 /* MyTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTest.h; sourceTree = "<group>"; };
+		AD53659B283E187500C566E0 /* MyTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTest.m; sourceTree = "<group>"; };
 		CC81A17A91673AD0C9E33529 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,11 +104,21 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				AD536599283E185900C566E0 /* Classes */,
 				16EC6EAC37413B5725014D3B /* WebBridge.podspec */,
 				CC81A17A91673AD0C9E33529 /* README.md */,
 				21AF358A91ECFEEF81C7B619 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AD536599283E185900C566E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD53659A283E187500C566E0 /* MyTest.h */,
+				AD53659B283E187500C566E0 /* MyTest.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		C0436D18520CD42A397BB308 /* Pods */ = {
@@ -233,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				AD53659C283E187500C566E0 /* MyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
