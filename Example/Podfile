@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WebBridge_Tests' do
+  pod 'WebBridge', :path => '../'
+  
+  
+end
